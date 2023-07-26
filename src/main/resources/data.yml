@@ -1,0 +1,15 @@
+#    ______
+#    | ___ \
+#    | |_/ /__ _ _ __ ___  _ __ ___   _____  __
+#    |    // _` | '_ ` _ \| '_ ` _ \ / _ \ \/ /
+#    | |\ \ (_| | | | | | | | | | | |  __/>  <
+#    \_| \_\__,_|_| |_| |_|_| |_| |_|\___/_/\_\
+
+
+
+#nombre de vote pour faire apparaître la pinata
+voteneeded: 20
+
+# vote acutel ( Ne pas toucher )
+currentvote : 0
+

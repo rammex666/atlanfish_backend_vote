@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="atlanfish_backend_vote:jar">
+    <output-path>D:/code/plugins_mc</output-path>
+    <root id="archive" name="atlanfish_backend_vote.jar">
+      <element id="module-output" name="atlanfish_backend_vote" />
+    </root>
+  </artifact>
+</component>

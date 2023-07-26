@@ -1,0 +1,10 @@
+name: atlanfish_backend_vote
+version: '1.0'
+main: org.rammex.atlanfish_backend_vote.Atlanfish_backend_vote
+api-version: '1.19'
+
+depend: [PlaceholderAPI]
+
+commands:
+  voteapp:
+    permission: voteapp.use
