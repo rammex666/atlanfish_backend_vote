@@ -25,7 +25,9 @@ public class vtapp implements CommandExecutor {
         Player player = (Player) sender;
         int getcurrentvote = plugin.getConfigg().getInt("currentvote");
         plugin.getConfigg().set("currentvote", getcurrentvote+1);
-        player.sendMessage(ChatColor.GREEN+"Vote ajouté");
+        if(sender instanceof Player){
+            player.sendMessage(ChatColor.GREEN+"Vote ajouté");
+        }
         plugin.getSave();
         if(pinataspawn(getcurrentvote)){
             String commands = "pinataparty spawn spawn";
